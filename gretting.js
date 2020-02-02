@@ -16,7 +16,7 @@ function handleSubmit(event){
     saveName(currentValue);
 }
 
-function askForName(){
+function askForName() {
     form.classList.add(SHOWING_CN);
     form.addEventListener("submit", handleSubmit);
 }
